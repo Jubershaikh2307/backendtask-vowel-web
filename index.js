@@ -8,7 +8,7 @@ const cart = require('./Routes/Cart.routes');
 
 const app = express()
 
-let PORT = 3001
+let PORT = 3000
 
 app.use(cors())
 app.use(express.json());
